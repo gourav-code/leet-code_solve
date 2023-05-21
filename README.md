@@ -1,2 +1,2 @@
 # leet-code_solve
-leet code solution in c language
+leet code solution specially in  c language
