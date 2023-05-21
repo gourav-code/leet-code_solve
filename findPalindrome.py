@@ -7,7 +7,7 @@ def subPart(l: int, r: int, s: str, res: str) -> str:
                 resLen = len(res)
             r+=1
             l-=1
-    print(f"11 {res}")
+    # print(f"11 {res}")
     return res
 
 def main():
