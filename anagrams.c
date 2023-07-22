@@ -36,7 +36,7 @@ bool isAnagram(char * s, char * t){
         if(hashTable[((int)(s[k]))-97].freq != 0)
             return false;
     }
-
+	printf("new\n");
     return true;
 }
 
