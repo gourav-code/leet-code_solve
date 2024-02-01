@@ -1,5 +1,5 @@
 class Solution:
-    def orangesRotting(self, grid: List[List[int]]) -> int:
+    def orangesRotting(self, grid: [[int]]) -> int:
         time, fresh = 0, 0
         rows, cols = len(grid), len(grid[0])
         q = deque()
