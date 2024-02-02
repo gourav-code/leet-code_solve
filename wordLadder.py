@@ -4,7 +4,7 @@ class Solution:
         if endWord not in wordList:
             return 0
 
-        neighbor = collections.defaultdict(list)
+        neighbor = collections.defaultdict(list) #it makes sure that for any key starts with empty list
         wordList.append(beginWord)
 
         for word in wordList:
