@@ -1,3 +1,5 @@
+#this question has different thinking process and different solution, don't see code to understand, watch video again dp 2D
+#https://www.youtube.com/watch?v=I7j0F7AHpb8
 class Solution:
     def maxProfit(self, prices: [int]) -> int:
         dp = {}
