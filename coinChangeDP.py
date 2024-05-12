@@ -10,3 +10,6 @@ class Solution:
 
         return l[amount] if l[amount] != amount+1 else -1
         
+
+tmp = Solution()
+print(tmp.coinChange(coins = [3], amount = 4))
