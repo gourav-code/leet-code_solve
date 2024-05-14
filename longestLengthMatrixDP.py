@@ -8,7 +8,6 @@ class Solution:
                 return 0
             if (r, c) in dp:
                 return dp[(r, c)]
-
             res = 1
             res = max(res, 1 + dfs(r + 1, c, matrix[r][c]))
             res = max(res, 1 + dfs(r - 1, c, matrix[r][c]))
