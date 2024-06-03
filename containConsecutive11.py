@@ -16,4 +16,4 @@ class Solution:
             arr[1] = tmp
             
         return (2**n - arr[1]) % m
-// also works with python but python has integer size problem
+# also works with python but python has integer size problem
