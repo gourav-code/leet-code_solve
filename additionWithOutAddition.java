@@ -8,3 +8,4 @@ class Solution {
         return a;
     }
 }
+// also works with python but python has integer size problem
