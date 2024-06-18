@@ -2,6 +2,8 @@
 #A rectangle with length l and width w can be inscribed in a circle if its diagonal is less than or equal to the diameter of the circle. 
 #hence the condition
 
+
+
 class Solution:
     def rectanglesInCircle(self,r):
         #code here
