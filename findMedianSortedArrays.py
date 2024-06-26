@@ -1,3 +1,5 @@
+#Instead this question, see medianTwoSortedArray.py
+
 def findMedianSortedArrays(nums1: [int], nums2: [int]) -> float:
     arr=[]
     n1_l=n2_l=0
