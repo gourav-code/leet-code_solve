@@ -1,3 +1,4 @@
+# Solution link https://www.youtube.com/watch?v=F9c7LpRZWVQ
 class Solution:
     def findMedianSortedArrays(self, nums1: [int], nums2: [int]) -> float:
         n1 = len(nums1)
