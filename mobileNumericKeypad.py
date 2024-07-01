@@ -17,20 +17,21 @@ class Solution:
         }
         
         dp = [[0] * 10 for _ in range(n + 1)]
-        
+
         for i in range(10):
             dp[1][i] = 1
         
         for length in range(2, n + 1):
             for digit in range(10):
                 dp[length][digit] = sum(dp[length - 1][prev_digit] for prev_digit in l[digit])
+            print(dp[length])
         
         return sum(dp[n][i] for i in range(10))
 
 # Example usage:
 solution = Solution()
-print(solution.getCount(1))  # Output: 10
-print(solution.getCount(2))  # Output should match the actual count for sequences of length 2
+# print(solution.getCount(1))  # Output: 10
+print(solution.getCount(3))  # Output should match the actual count for sequences of length 2
 #above is O(N) and O(N) time and space complexity respectively
 
 # #User function Template for python3 My first solution
